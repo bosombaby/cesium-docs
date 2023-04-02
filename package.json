@@ -1,0 +1,21 @@
+{
+  "name": "cesium-docs",
+  "version": "1.0.0",
+  "description": "",
+  "author": "bosom",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "start": "vuepress dev .",
+    "build": "vuepress build .",
+    "deploy": "bash deploy.sh"
+  },
+  "dependencies": {
+    "vuepress": "2.0.0-beta.51",
+    "vuepress-theme-reco": "2.0.0-beta.41"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syzdev/cesium-docs.git"
+  }
+}
