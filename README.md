@@ -16,6 +16,6 @@ bannerBrand:
   heroText: Cesium 入门教程
   tagline: 包含Ceisum的基本使用及部分案例，持续更新中。
   buttons:
-    - { text: 快速上手 →, link: '/guide/brief-introduction' }
+    - { text: 快速上手 →, link: '/guide/brief-introduction/' }
 isShowTitleInHome: false
 ---

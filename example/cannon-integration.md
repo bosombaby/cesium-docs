@@ -122,7 +122,7 @@ let cannonGroundBody = new CANNON.Body({
 
 ## 4 完整代码
 
-[cesium-docs-demo - syzdev](https://github.com/syzdev/cesium-docs-demo)
+[cesium-docs-demo](https://github.com/bosombaby/cesium-docs-demo)
 
 ```javascript
 let three = {

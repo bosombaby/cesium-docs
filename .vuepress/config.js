@@ -10,9 +10,10 @@ export default defineUserConfig({
     style: '@vuepress-reco/style-default',
     logo: '/logo-mini.png',
     author: 'bosom',
-    docsRepo: 'https://github.com/syzdev/cesium-docs',
-    docsBranch: 'main',
-    docsDir: 'example',
+    docsRepo: 'https://github.com/bosombaby/cesium-docs',
+    docsBranch: 'master',
+    docsDir: '',
+    // editLinkPattern: ':repo/-/edit/:branch/:path',
     lastUpdatedText: '',
     // series 为原 sidebar
     series: {
@@ -131,7 +132,7 @@ export default defineUserConfig({
       { text: '案例', link: '/example/pick-coordinates/' },
       { text: '扩展', link: '/extend/model-data/' },
       { text: '关于', link: '/about/' },
-      { text: 'GitHub', link: 'https://github.com/syzdev/cesium-docs' },
+      { text: 'GitHub', link: 'https://github.com/bosombaby/cesium-docs' },
     ],
   }),
 })

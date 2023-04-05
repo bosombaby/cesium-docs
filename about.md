@@ -4,9 +4,9 @@ title: 关于
 
 ## 联系作者
 
-作者：syz :grin:
+作者：bosom
 
-Email：syzdev@126.com
+Email：1245924849@qq.com
 
 ## 章节介绍
 目前将内容划分为如下章节：
@@ -18,7 +18,7 @@ Email：syzdev@126.com
 
 > 注1：上述内容及编排是根据个人在学习和实践过程中总结出来的，后续会继续完善和补充。
 >
-> 注2：内容中的示例源码在 [syzdev/cesium-docs-demo: 📖 Cesium入门教程中的示例 (github.com)](https://github.com/syzdev/cesium-docs-demo) 中。
+> 注2：内容中的示例源码在 [ 📖 Cesium入门教程中的示例 (github.com)](https://github.com/bosombaby/cesium-docs-demo) 中。
 
 > 网站中的内容和示例都是由本人在学习工作之余所完成，难免会有不足，请各位见谅。
 
