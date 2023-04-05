@@ -61,7 +61,7 @@ viewer.imageryLayers._layers[0].contrast = 3
  <iframe  
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/imagery/ImageryConfig.html"  
+ src="https://cesium.product.vrteam.top/imagery/ImageryConfig.html"  
  frameborder=0 >
  </iframe>
 :::

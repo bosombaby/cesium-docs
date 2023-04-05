@@ -34,7 +34,7 @@ viewer.terrainProvider = terrainProvider
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/terrain/waterMask.html"  
+ src="https://cesium.product.vrteam.top/terrain/waterMask.html"  
  frameborder=0 >
  </iframe>
 :::

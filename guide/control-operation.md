@@ -10,7 +10,7 @@ title: 视图控件操作
  <iframe  
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/interface/controlOperation.html"  
+ src="https://cesium.product.vrteam.top/interface/controlOperation.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -20,8 +20,8 @@ title: 视图控件操作
 隐藏查找位置的属性是`geocoder`，具体描述如下：
 
 | 名称       | 类型    | 默认值 |
-| ---------- | ------- | ------- |
-| `geocoder` | Boolean | `true`  |
+| ---------- | ------- | ------ |
+| `geocoder` | Boolean | `true` |
 
 代码如下：
 
@@ -36,8 +36,8 @@ const viewer = new Cesium.Viewer("cesiumContainer", {
 隐藏返回视角到初始位置的属性是`homeButton`，具体描述如下：
 
 | 名称         | 类型    | 默认值 |
-| ------------ | ------- | ------- |
-| `homeButton` | Boolean | `true`  |
+| ------------ | ------- | ------ |
+| `homeButton` | Boolean | `true` |
 
 代码如下：
 
@@ -52,8 +52,8 @@ const viewer = new Cesium.Viewer("cesiumContainer", {
 隐藏视角模式选择的属性是`sceneModePicker`，具体描述如下：
 
 | 名称              | 类型    | 默认值 |
-| ----------------- | ------- | ------- |
-| `sceneModePicker` | Boolean | `true`  |
+| ----------------- | ------- | ------ |
+| `sceneModePicker` | Boolean | `true` |
 
 代码如下：
 
@@ -68,8 +68,8 @@ const viewer = new Cesium.Viewer("cesiumContainer", {
 隐藏图层选择器的属性是`baseLayerPicker`，具体描述如下：
 
 | 名称              | 类型    | 默认值 |
-| ----------------- | ------- | ------- |
-| `baseLayerPicker` | Boolean | `true`  |
+| ----------------- | ------- | ------ |
+| `baseLayerPicker` | Boolean | `true` |
 
 代码如下：
 
@@ -83,9 +83,9 @@ const viewer = new Cesium.Viewer("cesiumContainer", {
 
 隐藏帮助的属性是`navigationHelpButton`，具体描述如下：
 
-| 名称                       | 类型    | 默认值 |
-| -------------------------- | ------- | ------- |
-| `navigationHelpButton` | Boolean | `true`  |
+| 名称                   | 类型    | 默认值 |
+| ---------------------- | ------- | ------ |
+| `navigationHelpButton` | Boolean | `true` |
 
 代码如下：
 
@@ -100,8 +100,8 @@ const viewer = new Cesium.Viewer("cesiumContainer", {
 隐藏动画速度控制器的属性是`animation`，具体描述如下：
 
 | 名称        | 类型    | 默认值 |
-| ----------- | ------- | ------- |
-| `animation` | Boolean | `true`  |
+| ----------- | ------- | ------ |
+| `animation` | Boolean | `true` |
 
 代码如下：
 
@@ -124,8 +124,8 @@ viewer._cesiumWidget._creditContainer.style.display = "none"
 隐藏时间轴的属性是`timeline`，具体描述如下：
 
 | 名称       | 类型    | 默认值 |
-| ---------- | ------- | ------- |
-| `timeline` | Boolean | `true`  |
+| ---------- | ------- | ------ |
+| `timeline` | Boolean | `true` |
 
 代码如下：
 
@@ -140,8 +140,8 @@ const viewer = new Cesium.Viewer("cesiumContainer", {
 隐藏全屏按钮的属性是`fullscreenButton`，具体描述如下：
 
 | 名称               | 类型    | 默认值 |
-| ------------------ | ------- | ------- |
-| `fullscreenButton` | Boolean | `true`  |
+| ------------------ | ------- | ------ |
+| `fullscreenButton` | Boolean | `true` |
 
 代码如下：
 

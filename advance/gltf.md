@@ -56,7 +56,7 @@ const entity = viewer.entities.add({
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/gltf/loadgltf.html" 
+ src="https://cesium.product.vrteam.top/gltf/loadgltf.html" 
  frameborder=0 >
  </iframe>
 :::

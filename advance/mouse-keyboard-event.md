@@ -57,11 +57,11 @@ const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas)
 
 事件注册方法`setInputAction`用于根据事件类型定义事件的触发方式并执行对应的回调函数，该方法的描述如下：
 
-| 属性名称   | 类型                                                         | 描述                   |
-| ---------- | ------------------------------------------------------------ | ---------------------- |
+| 属性名称   | 类型                                                                                                                                                                           | 描述                   |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------- |
 | `action`   | 指定不同的`type`值会触发不同的回调函数，详见官方文档 [setInputAction](https://cesium.com/learn/cesiumjs/ref-doc/ScreenSpaceEventHandler.html?classFilter=Space#setInputAction) | 事件回调函数           |
-| `type`     | 屏幕空间事件类型`ScreenSpaceEventType`                       | 屏幕空间事件类型       |
-| `modifier` | 键盘事件修饰符`KeyboardEventModifier`                        | 可选项，键盘事件修饰符 |
+| `type`     | 屏幕空间事件类型`ScreenSpaceEventType`                                                                                                                                         | 屏幕空间事件类型       |
+| `modifier` | 键盘事件修饰符`KeyboardEventModifier`                                                                                                                                          | 可选项，键盘事件修饰符 |
 
 前面提到想要定义一个事件，首先要创建一个事件处理器`handler`，再使用事件处理器`handler`上的`setInputAction`方法来指定事件的类型和事件的回调，如下面代码：
 
@@ -97,8 +97,8 @@ handler.setInputAction((movement) => {
 
 该回调函数会返回一个`Cartesian2`对象：
 
-| 参数名称   | 类型                                                         | 描述                         |
-| ---------- | ------------------------------------------------------------ | ---------------------------- |
+| 参数名称   | 类型                                                                    | 描述                         |
+| ---------- | ----------------------------------------------------------------------- | ---------------------------- |
 | `position` | [Cartesian2](https://cesium.com/learn/cesiumjs/ref-doc/Cartesian2.html) | 鼠标点击的笛卡尔平面直角坐标 |
 
 代码如下：
@@ -115,7 +115,7 @@ handler.setInputAction((position) => {
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/event/PositionedEventCallback.html"  
+ src="https://cesium.product.vrteam.top/event/PositionedEventCallback.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -124,8 +124,8 @@ handler.setInputAction((position) => {
 
 该回调函数会返回一个移动起点的`Cartesian2`对象和一个移动终点的`Cartesian2`对象：
 
-| 参数名称        | 类型                                                         | 描述                             |
-| --------------- | ------------------------------------------------------------ | -------------------------------- |
+| 参数名称        | 类型                                                                    | 描述                             |
+| --------------- | ----------------------------------------------------------------------- | -------------------------------- |
 | `startPosition` | [Cartesian2](https://cesium.com/learn/cesiumjs/ref-doc/Cartesian2.html) | 鼠标移动起点的笛卡尔平面直角坐标 |
 | `endPosition`   | [Cartesian2](https://cesium.com/learn/cesiumjs/ref-doc/Cartesian2.html) | 鼠标移动终点的笛卡尔平面直角坐标 |
 
@@ -144,7 +144,7 @@ handler.setInputAction((positions) => {
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/event/MotionEventCallback.html"  
+ src="https://cesium.product.vrteam.top/event/MotionEventCallback.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -171,7 +171,7 @@ handler.setInputAction((delta) => {
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/event/WheelEventCallback.html"  
+ src="https://cesium.product.vrteam.top/event/WheelEventCallback.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -179,9 +179,9 @@ handler.setInputAction((delta) => {
 ## 移除事件 [removeInputAction](https://cesium.com/learn/cesiumjs/ref-doc/ScreenSpaceEventHandler.html?classFilter=Space#removeInputAction)
 定义Cesium中的事件往往是执行某一个具体的操作，如鼠标点击拾取，当操作执行结束后需要移除该事件，避免对后续操作造成影响，移除事件的方法为`removeInputAction`，该方法的描述如下：
 
-| 参数名称   | 类型                                                         | 描述                   |
-| ---------- | ------------------------------------------------------------ | ---------------------- |
-| `type`     | [ScreenSpaceEventType](https://cesium.com/learn/cesiumjs/ref-doc/global.html#ScreenSpaceEventType) | 屏幕空间事件类型       |
+| 参数名称   | 类型                                                                                                 | 描述                   |
+| ---------- | ---------------------------------------------------------------------------------------------------- | ---------------------- |
+| `type`     | [ScreenSpaceEventType](https://cesium.com/learn/cesiumjs/ref-doc/global.html#ScreenSpaceEventType)   | 屏幕空间事件类型       |
 | `modifier` | [KeyboardEventModifier](https://cesium.com/learn/cesiumjs/ref-doc/global.html#KeyboardEventModifier) | 可选项，键盘事件修饰符 |
 
 使用方法如下：

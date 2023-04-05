@@ -51,7 +51,7 @@ viewer.render() // 主动触发Ceisum场景渲染
 ::: details 点击查看在线示例：场景渲染示例
 
 由于本例需要查看浏览器控制台输出，请读者点击下方链接跳转到示例页面，按F12打开控制台查看输出：
-<a>https://syzdev.cn/cesium-docs-demo/event/sceneRenderEvent.html</a>
+<a>https://cesium.product.vrteam.top/event/sceneRenderEvent.html</a>
 :::
 
 页面效果如下，首次打开时场景还没有被渲染：

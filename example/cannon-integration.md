@@ -8,7 +8,7 @@ Cesium与物理引擎Cannon的整合。
 
 ## 2 在线地址
 
-[ Live Demo ]：[Cannon - Cesium (syzdev.cn)](https://syzdev.cn/cesium-docs-demo/cannon/cesium.html)
+[ Live Demo ]：[Cannon - Cesium (syzdev.cn)](https://cesium.product.vrteam.top/cannon/cesium.html)
 
 ## 3 屏幕截图
 
@@ -103,7 +103,7 @@ const axesHelper = new THREE.AxesHelper(64410000)
 three.scene.add(axesHelper)
 ```
 
-[ Live Demo ]：[Cannon - Cesium-axes (syzdev.cn)](https://syzdev.cn/cesium-docs-demo/cannon/cesium-axes.html)
+[ Live Demo ]：[Cannon - Cesium-axes (syzdev.cn)](https://cesium.product.vrteam.top/cannon/cesium-axes.html)
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/3c500b87569141b98225a1fc5a811669.png#pic_center)
 

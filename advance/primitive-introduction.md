@@ -31,24 +31,24 @@ title: 图形简介
 
 截止2022年5月20日，Cesium版本1.93，支持如下图形，由于大部分图形附带一个仅有轮廓线的自身形状，因此下表中将其归位一类：
 
-| 图形名称                                                     | 类型                                                         | 描述                                       |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------ |
-| BoxGeometry <br/><br/> BoxOutlineGeometry                    | [BoxGeometry](https://cesium.com/learn/cesiumjs/ref-doc/BoxGeometry.html?classFilter=Geometry#BoxGeometry)<br/><br/>[BoxOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/BoxOutlineGeometry.html?classFilter=Geometry#BoxOutlineGeometry) | 盒子<br/><br/>仅有轮廓线的盒子             |
-| CircleGeometry<br/><br/>CircleOutlineGeometry                | [CircleGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CircleGeometry.html?classFilter=CircleGeometry#CircleGeometry)<br/><br/>[CircleOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CircleOutlineGeometry.html?classFilter=CircleOutlineGeometry#CircleOutlineGeometry) | 圆形<br/><br/>仅有轮廓线的圆形             |
-| CoplanarPolygonGeometry<br/><br/>CoplanarPolygonOutlineGeometry | [CoplanarPolygonGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CoplanarPolygonGeometry.html#CoplanarPolygonGeometry)<br/><br/>[CoplanarPolygonOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CoplanarPolygonOutlineGeometry.html?classFilter=CoplanarPolygonOutlineGeometry#CoplanarPolygonOutlineGeometry) | 共面多边形<br/><br/>仅有轮廓线的共面多边形 |
-| CorridorGeometry<br/><br/>CorridorOutlineGeometry            | [CorridorGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CorridorGeometry.html?classFilter=Geometry#CorridorGeometry)<br/><br/>[CorridorOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CorridorOutlineGeometry.html?classFilter=Geometry#CorridorOutlineGeometry) | 走廊<br/><br/>仅有轮廓线的走廊             |
-| CylinderGeometry<br/><br/>CylinderOutlineGeometry            | [CylinderGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CylinderGeometry.html?classFilter=CylinderGeometry#CylinderGeometry)<br/><br/>[CylinderOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CylinderOutlineGeometry.html?classFilter=CylinderOutlineGeometry#CylinderOutlineGeometry) | 圆柱<br/><br/>仅有轮廓线的圆柱             |
-| EllipseGeometry<br/><br/>EllipseOutlineGeometry              | [EllipseGeometry](https://cesium.com/learn/cesiumjs/ref-doc/EllipseGeometry.html?classFilter=EllipseGeometry#EllipseGeometry)<br/><br/>[EllipseOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/EllipseOutlineGeometry.html?classFilter=EllipseOutlineGeometry#EllipseOutlineGeometry) | 椭圆<br/><br/>仅有轮廓线的椭圆             |
-| EllipsoidGeometry<br/><br/>EllipsoidOutlineGeometry          | [EllipsoidGeometry](https://cesium.com/learn/cesiumjs/ref-doc/EllipsoidGeometry.html?classFilter=EllipsoidGeometry#EllipsoidGeometry)<br/><br/>[EllipsoidOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/EllipsoidOutlineGeometry.html?classFilter=EllipsoidOutlineGeometry#EllipsoidOutlineGeometry) | 椭球体<br/><br/>仅有轮廓线的椭球体         |
-| FrustumGeometry<br/><br/>FrustumOutlineGeometry              | [FrustumGeometry](https://cesium.com/learn/cesiumjs/ref-doc/FrustumGeometry.html?classFilter=FrustumGeometry#FrustumGeometry)<br/><br/>[FrustumOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/FrustumOutlineGeometry.html?classFilter=FrustumOutlineGeometry#FrustumOutlineGeometry) | 截锥体<br/><br/>仅有轮廓线的截锥体         |
-| GroundPolylineGeometry                                       | [GroundPolylineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/GroundPolylineGeometry.html?classFilter=GroundPolylineGeometry#GroundPolylineGeometry) | 地面多段线                                 |
-| PlaneGeometry<br/><br/>PlaneOutlineGeometry                  | [PlaneGeometry](https://cesium.com/learn/cesiumjs/ref-doc/PlaneGeometry.html?classFilter=PlaneGeometry#PlaneGeometry)<br/><br/>[PlaneOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/PlaneOutlineGeometry.html?classFilter=PlaneOutlineGeometry#PlaneOutlineGeometry) | 平面<br/><br/>仅有轮廓线的平面             |
-| PolygonGeometry<br/><br/>PolygonOutlineGeometry              | [PolygonGeometry](https://cesium.com/learn/cesiumjs/ref-doc/PolygonGeometry.html?classFilter=PolygonGeometry#PolygonGeometry)<br/><br/>[PolygonOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CoplanarPolygonOutlineGeometry.html?classFilter=PolygonOutlineGeometry#CoplanarPolygonOutlineGeometry) | 折线<br/><br/>仅有轮廓线的折线             |
-| PolylineVolumeGeometry<br/><br/>PolylineVolumeOutlineGeometry | [PolylineVolumeGeometry](https://cesium.com/learn/cesiumjs/ref-doc/PolylineVolumeGeometry.html?classFilter=PolylineVolumeGeometry#PolylineVolumeGeometry)<br/><br/>[PolylineVolumeOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/PolylineVolumeOutlineGeometry.html?classFilter=PolylineVolumeOutlineGeometry#PolylineVolumeOutlineGeometry) | 折线体<br/><br/>仅有轮廓线的折线体         |
-| RectangleGeometry<br/><br/>RectangleOutlineGeometry          | [RectangleGeometry](https://cesium.com/learn/cesiumjs/ref-doc/RectangleGeometry.html?classFilter=RectangleGeometry#RectangleGeometry)<br/><br/>[RectangleOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/RectangleOutlineGeometry.html?classFilter=RectangleOutlineGeometry#RectangleOutlineGeometry) | 矩形<br/><br/>仅有轮廓线的矩形             |
-| SimplePolylineGeometry                                       | [SimplePolylineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/SimplePolylineGeometry.html?classFilter=SimplePolylineGeometry#SimplePolylineGeometry) | 简单折线                                   |
-| SphereGeometry<br/><br/>SphereOutlineGeometry                | [SphereGeometry](https://cesium.com/learn/cesiumjs/ref-doc/SphereGeometry.html?classFilter=SphereGeometry#SphereGeometry)<br/><br/>[SphereOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/SphereOutlineGeometry.html?classFilter=SphereOutlineGeometry#SphereOutlineGeometry) | 球体<br/><br/>仅有轮廓线的球体             |
-| WallGeometry<br/><br/>WallOutlineGeometry                    | [WallGeometry](https://cesium.com/learn/cesiumjs/ref-doc/WallGeometry.html?classFilter=WallGeometry#WallGeometry)<br/><br/>[WallOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/WallOutlineGeometry.html?classFilter=WallOutlineGeometry#WallOutlineGeometry) | 墙<br/><br/>仅有轮廓线的墙                 |
+| 图形名称                                                        | 类型                                                                                                                                                                                                                                                                                                                                                     | 描述                                       |
+| --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| BoxGeometry <br/><br/> BoxOutlineGeometry                       | [BoxGeometry](https://cesium.com/learn/cesiumjs/ref-doc/BoxGeometry.html?classFilter=Geometry#BoxGeometry)<br/><br/>[BoxOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/BoxOutlineGeometry.html?classFilter=Geometry#BoxOutlineGeometry)                                                                                                      | 盒子<br/><br/>仅有轮廓线的盒子             |
+| CircleGeometry<br/><br/>CircleOutlineGeometry                   | [CircleGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CircleGeometry.html?classFilter=CircleGeometry#CircleGeometry)<br/><br/>[CircleOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CircleOutlineGeometry.html?classFilter=CircleOutlineGeometry#CircleOutlineGeometry)                                                                 | 圆形<br/><br/>仅有轮廓线的圆形             |
+| CoplanarPolygonGeometry<br/><br/>CoplanarPolygonOutlineGeometry | [CoplanarPolygonGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CoplanarPolygonGeometry.html#CoplanarPolygonGeometry)<br/><br/>[CoplanarPolygonOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CoplanarPolygonOutlineGeometry.html?classFilter=CoplanarPolygonOutlineGeometry#CoplanarPolygonOutlineGeometry)                             | 共面多边形<br/><br/>仅有轮廓线的共面多边形 |
+| CorridorGeometry<br/><br/>CorridorOutlineGeometry               | [CorridorGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CorridorGeometry.html?classFilter=Geometry#CorridorGeometry)<br/><br/>[CorridorOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CorridorOutlineGeometry.html?classFilter=Geometry#CorridorOutlineGeometry)                                                                        | 走廊<br/><br/>仅有轮廓线的走廊             |
+| CylinderGeometry<br/><br/>CylinderOutlineGeometry               | [CylinderGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CylinderGeometry.html?classFilter=CylinderGeometry#CylinderGeometry)<br/><br/>[CylinderOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CylinderOutlineGeometry.html?classFilter=CylinderOutlineGeometry#CylinderOutlineGeometry)                                                 | 圆柱<br/><br/>仅有轮廓线的圆柱             |
+| EllipseGeometry<br/><br/>EllipseOutlineGeometry                 | [EllipseGeometry](https://cesium.com/learn/cesiumjs/ref-doc/EllipseGeometry.html?classFilter=EllipseGeometry#EllipseGeometry)<br/><br/>[EllipseOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/EllipseOutlineGeometry.html?classFilter=EllipseOutlineGeometry#EllipseOutlineGeometry)                                                         | 椭圆<br/><br/>仅有轮廓线的椭圆             |
+| EllipsoidGeometry<br/><br/>EllipsoidOutlineGeometry             | [EllipsoidGeometry](https://cesium.com/learn/cesiumjs/ref-doc/EllipsoidGeometry.html?classFilter=EllipsoidGeometry#EllipsoidGeometry)<br/><br/>[EllipsoidOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/EllipsoidOutlineGeometry.html?classFilter=EllipsoidOutlineGeometry#EllipsoidOutlineGeometry)                                         | 椭球体<br/><br/>仅有轮廓线的椭球体         |
+| FrustumGeometry<br/><br/>FrustumOutlineGeometry                 | [FrustumGeometry](https://cesium.com/learn/cesiumjs/ref-doc/FrustumGeometry.html?classFilter=FrustumGeometry#FrustumGeometry)<br/><br/>[FrustumOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/FrustumOutlineGeometry.html?classFilter=FrustumOutlineGeometry#FrustumOutlineGeometry)                                                         | 截锥体<br/><br/>仅有轮廓线的截锥体         |
+| GroundPolylineGeometry                                          | [GroundPolylineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/GroundPolylineGeometry.html?classFilter=GroundPolylineGeometry#GroundPolylineGeometry)                                                                                                                                                                                                | 地面多段线                                 |
+| PlaneGeometry<br/><br/>PlaneOutlineGeometry                     | [PlaneGeometry](https://cesium.com/learn/cesiumjs/ref-doc/PlaneGeometry.html?classFilter=PlaneGeometry#PlaneGeometry)<br/><br/>[PlaneOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/PlaneOutlineGeometry.html?classFilter=PlaneOutlineGeometry#PlaneOutlineGeometry)                                                                         | 平面<br/><br/>仅有轮廓线的平面             |
+| PolygonGeometry<br/><br/>PolygonOutlineGeometry                 | [PolygonGeometry](https://cesium.com/learn/cesiumjs/ref-doc/PolygonGeometry.html?classFilter=PolygonGeometry#PolygonGeometry)<br/><br/>[PolygonOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/CoplanarPolygonOutlineGeometry.html?classFilter=PolygonOutlineGeometry#CoplanarPolygonOutlineGeometry)                                         | 折线<br/><br/>仅有轮廓线的折线             |
+| PolylineVolumeGeometry<br/><br/>PolylineVolumeOutlineGeometry   | [PolylineVolumeGeometry](https://cesium.com/learn/cesiumjs/ref-doc/PolylineVolumeGeometry.html?classFilter=PolylineVolumeGeometry#PolylineVolumeGeometry)<br/><br/>[PolylineVolumeOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/PolylineVolumeOutlineGeometry.html?classFilter=PolylineVolumeOutlineGeometry#PolylineVolumeOutlineGeometry) | 折线体<br/><br/>仅有轮廓线的折线体         |
+| RectangleGeometry<br/><br/>RectangleOutlineGeometry             | [RectangleGeometry](https://cesium.com/learn/cesiumjs/ref-doc/RectangleGeometry.html?classFilter=RectangleGeometry#RectangleGeometry)<br/><br/>[RectangleOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/RectangleOutlineGeometry.html?classFilter=RectangleOutlineGeometry#RectangleOutlineGeometry)                                         | 矩形<br/><br/>仅有轮廓线的矩形             |
+| SimplePolylineGeometry                                          | [SimplePolylineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/SimplePolylineGeometry.html?classFilter=SimplePolylineGeometry#SimplePolylineGeometry)                                                                                                                                                                                                | 简单折线                                   |
+| SphereGeometry<br/><br/>SphereOutlineGeometry                   | [SphereGeometry](https://cesium.com/learn/cesiumjs/ref-doc/SphereGeometry.html?classFilter=SphereGeometry#SphereGeometry)<br/><br/>[SphereOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/SphereOutlineGeometry.html?classFilter=SphereOutlineGeometry#SphereOutlineGeometry)                                                                 | 球体<br/><br/>仅有轮廓线的球体             |
+| WallGeometry<br/><br/>WallOutlineGeometry                       | [WallGeometry](https://cesium.com/learn/cesiumjs/ref-doc/WallGeometry.html?classFilter=WallGeometry#WallGeometry)<br/><br/>[WallOutlineGeometry](https://cesium.com/learn/cesiumjs/ref-doc/WallOutlineGeometry.html?classFilter=WallOutlineGeometry#WallOutlineGeometry)                                                                                 | 墙<br/><br/>仅有轮廓线的墙                 |
 
 ## 简单示例
 
@@ -63,7 +63,7 @@ title: 图形简介
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/primitive/BoxOutlineGeometry.html" 
+ src="https://cesium.product.vrteam.top/primitive/BoxOutlineGeometry.html" 
  frameborder=0 >
  </iframe>
 :::
@@ -107,7 +107,7 @@ const rectanglePrimitive = viewer.scene.primitives.add(new Cesium.Primitive({
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/primitive/CombingGeometries.html" 
+ src="https://cesium.product.vrteam.top/primitive/CombingGeometries.html" 
  frameborder=0 >
  </iframe>
 :::
@@ -146,7 +146,7 @@ viewer.scene.primitives.add(new Cesium.Primitive({
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/primitive/PickInstance.html" 
+ src="https://cesium.product.vrteam.top/primitive/PickInstance.html" 
  frameborder=0 >
  </iframe>
 :::
@@ -189,7 +189,7 @@ handler.setInputAction(function (movement) {
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/primitive/GeometryInstances.html" 
+ src="https://cesium.product.vrteam.top/primitive/GeometryInstances.html" 
  frameborder=0 >
  </iframe>
 :::
@@ -231,13 +231,13 @@ setInterval(function () {
 
 `Primitive`由两个重要部分组成：几何图形实例、外观，一个`Primitive`只能有一个外观，而可以有多个实例。几何图形定义了结构，外观定义了每个像素被如何着色，外观可能使用材质（Material）。Cesium支持下表列出的外观：
 
-| 外观名称                     | 类型                                                         | 描述                                                         |
-| ---------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| `MaterialAppearance`         | [MaterialAppearance](https://cesium.com/learn/cesiumjs/ref-doc/MaterialAppearance.html?classFilter=MaterialAppearance#MaterialAppearance) | 支持各种Geometry类型的外观，支持使用材质来定义着色           |
+| 外观名称                     | 类型                                                                                                                                                                      | 描述                                                                                                        |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| `MaterialAppearance`         | [MaterialAppearance](https://cesium.com/learn/cesiumjs/ref-doc/MaterialAppearance.html?classFilter=MaterialAppearance#MaterialAppearance)                                 | 支持各种Geometry类型的外观，支持使用材质来定义着色                                                          |
 | `EllipsoidSurfaceAppearance` | [EllipsoidSurfaceAppearance](https://cesium.com/learn/cesiumjs/ref-doc/EllipsoidSurfaceAppearance.html?classFilter=EllipsoidSurfaceAppearance#EllipsoidSurfaceAppearance) | MaterialAppearance的一个版本。假设几何图形与地表是平行的，并且依此来进行顶点属性（vertex attributes）的计算 |
-| `PerInstanceColorAppearance` | [PerInstanceColorAppearance](https://cesium.com/learn/cesiumjs/ref-doc/PerInstanceColorAppearance.html?classFilter=PerInstanceColorAppearance#PerInstanceColorAppearance) | 让每个实例使用自定义的颜色来着色                             |
-| `PolylineMaterialAppearance` | [PolylineMaterialAppearance](https://cesium.com/learn/cesiumjs/ref-doc/PolylineMaterialAppearance.html?classFilter=PolylineMaterialAppearance#PolylineMaterialAppearance) | 支持使用材质来着色多段线                                     |
-| `PolylineColorAppearance`    | [PolylineColorAppearance](https://cesium.com/learn/cesiumjs/ref-doc/PolylineColorAppearance.html?classFilter=PolylineColorAppearance#PolylineColorAppearance) | 使用每顶点或者每片段（per-vertex or per-segment ）的颜色来着色多段线 |
+| `PerInstanceColorAppearance` | [PerInstanceColorAppearance](https://cesium.com/learn/cesiumjs/ref-doc/PerInstanceColorAppearance.html?classFilter=PerInstanceColorAppearance#PerInstanceColorAppearance) | 让每个实例使用自定义的颜色来着色                                                                            |
+| `PolylineMaterialAppearance` | [PolylineMaterialAppearance](https://cesium.com/learn/cesiumjs/ref-doc/PolylineMaterialAppearance.html?classFilter=PolylineMaterialAppearance#PolylineMaterialAppearance) | 支持使用材质来着色多段线                                                                                    |
+| `PolylineColorAppearance`    | [PolylineColorAppearance](https://cesium.com/learn/cesiumjs/ref-doc/PolylineColorAppearance.html?classFilter=PolylineColorAppearance#PolylineColorAppearance)             | 使用每顶点或者每片段（per-vertex or per-segment ）的颜色来着色多段线                                        |
 
 外观定义了需要在GPU上执行的完整的GLSL顶点、片段着色器，通常不需要修改这一部分，除非需要定义自己的外观。外观还定义了完整的`render state`，用于在绘制`Primitive`时控制GPU的状态，可以直接或者通过高层API来定义`render state`：
 

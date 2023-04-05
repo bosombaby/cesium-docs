@@ -37,7 +37,7 @@ viewer.terrainProvider = terrainProvider
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/terrain/ArcGISTiledElevationTerrainProvider.html"  
+ src="https://cesium.product.vrteam.top/terrain/ArcGISTiledElevationTerrainProvider.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -84,7 +84,7 @@ viewer.terrainProvider = new Cesium.CesiumTerrainProvider({
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/terrain/CesiumTerrainProvider.html"  
+ src="https://cesium.product.vrteam.top/terrain/CesiumTerrainProvider.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -138,7 +138,7 @@ viewer.terrainProvider = new Cesium.CustomHeightmapTerrainProvider({
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/terrain/CustomHeightmapTerrainProvider.html"  
+ src="https://cesium.product.vrteam.top/terrain/CustomHeightmapTerrainProvider.html"  
  frameborder=0 >
  </iframe>
 :::

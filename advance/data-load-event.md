@@ -74,7 +74,7 @@ tileset.debugShowContentBoundingVolume = true
 ::: details 点击查看在线示例：Cesium3DTileset 加载示例
 
 由于本例需要查看浏览器控制台输出，请读者点击下方链接跳转到示例页面，按F12打开控制台查看输出：
-<a>https://syzdev.cn/cesium-docs-demo/event/dataLoadEvent.html</a>
+<a>https://cesium.product.vrteam.top/event/dataLoadEvent.html</a>
 :::
 
 页面效果如下：

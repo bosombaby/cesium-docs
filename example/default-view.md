@@ -60,7 +60,7 @@ Cesium.Camera.DEFAULT_VIEW_RECTANGLE = Cesium.Rectangle.fromDegrees(
  <iframe  
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/example/default-view.html"  
+ src="https://cesium.product.vrteam.top/example/default-view.html"  
  frameborder=0 >
  </iframe>
 :::

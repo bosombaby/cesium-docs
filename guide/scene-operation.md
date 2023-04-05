@@ -8,7 +8,7 @@ title: 场景操作
  <iframe  
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/interface/sceneOperation.html"  
+ src="https://cesium.product.vrteam.top/interface/sceneOperation.html"  
  frameborder=0 >
  </iframe>
 :::

@@ -44,7 +44,7 @@ handler.setInputAction(function(movement) {
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/coordinate/scene-pick.html"  
+ src="https://cesium.product.vrteam.top/coordinate/scene-pick.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -62,7 +62,7 @@ const featureArray = viewer.scene.drillPick(cartesian2)
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/coordinate/scene-drillPick.html"  
+ src="https://cesium.product.vrteam.top/coordinate/scene-drillPick.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -85,7 +85,7 @@ handler.setInputAction((movement) => {
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/coordinate/scene-pickPosition.html"  
+ src="https://cesium.product.vrteam.top/coordinate/scene-pickPosition.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -107,7 +107,7 @@ handler.setInputAction((movement) => {
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/coordinate/camera.getPickRay.html"  
+ src="https://cesium.product.vrteam.top/coordinate/camera.getPickRay.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -132,7 +132,7 @@ handler.setInputAction((movement) => {
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/coordinate/camera.pickEllipsoid.html"  
+ src="https://cesium.product.vrteam.top/coordinate/camera.pickEllipsoid.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -160,7 +160,7 @@ handler.setInputAction((movement) => {
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/coordinate/globe.pick.html"  
+ src="https://cesium.product.vrteam.top/coordinate/globe.pick.html"  
  frameborder=0 >
  </iframe>
 :::

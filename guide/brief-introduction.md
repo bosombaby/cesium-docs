@@ -12,7 +12,7 @@ Cesium是一个用于显示三维地球的开源库，旨在释放3D数据的力
  <iframe  
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/HelloCesium.html"
+ src="https://cesium.product.vrteam.top/HelloCesium.html"
  frameborder=0 >
  </iframe>
 :::

@@ -10,7 +10,7 @@ title: 影像提供者示例
  <iframe  
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/imagery/ImageryExample.html"  
+ src="https://cesium.product.vrteam.top/imagery/ImageryExample.html"  
  frameborder=0 >
  </iframe>
 :::

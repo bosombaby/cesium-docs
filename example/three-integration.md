@@ -11,7 +11,7 @@ title: Three + Cesium
 
 ## 2 在线地址
 
-[ Live Demo ]：[Cesium integrate Threejs (syzdev.cn)](https://syzdev.cn/cesium-docs-demo/cesium-three/cesium-three.html)
+[ Live Demo ]：[Cesium integrate Threejs (syzdev.cn)](https://cesium.product.vrteam.top/cesium-three/cesium-three.html)
 
 ## 3 屏幕截图
 

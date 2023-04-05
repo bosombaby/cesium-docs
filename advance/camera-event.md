@@ -31,7 +31,7 @@ viewer.camera.moveEnd.addEventListener(() => {
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/event/cameraEvent.html" 
+ src="https://cesium.product.vrteam.top/event/cameraEvent.html" 
  frameborder=0 >
  </iframe>
 :::

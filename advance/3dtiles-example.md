@@ -56,7 +56,7 @@ viewer.zoomTo(tileset, new Cesium.HeadingPitchRange(-110, -1, 50))
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/3dtiles/update3DTilesPosition.html" 
+ src="https://cesium.product.vrteam.top/3dtiles/update3DTilesPosition.html" 
  frameborder=0 >
  </iframe>
 :::
@@ -87,7 +87,7 @@ tileset.debugShowContentBoundingVolume = true
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/3dtiles/3DTilesContentBoundingVolume.html" 
+ src="https://cesium.product.vrteam.top/3dtiles/3DTilesContentBoundingVolume.html" 
  frameborder=0 >
  </iframe>
 :::
@@ -119,7 +119,7 @@ viewer.extend(Cesium.viewerCesium3DTilesInspectorMixin)
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/3dtiles/3DTilesInspector.html" 
+ src="https://cesium.product.vrteam.top/3dtiles/3DTilesInspector.html" 
  frameborder=0 >
  </iframe>
 :::
@@ -144,7 +144,7 @@ tileset.style = new Cesium.Cesium3DTileStyle({
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/3dtiles/3DTilesColor.html" 
+ src="https://cesium.product.vrteam.top/3dtiles/3DTilesColor.html" 
  frameborder=0 >
  </iframe>
 :::
@@ -208,7 +208,7 @@ tileset.style = new Cesium.Cesium3DTileStyle({
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/3dtiles/3DTilesColorSingle.html" 
+ src="https://cesium.product.vrteam.top/3dtiles/3DTilesColorSingle.html" 
  frameborder=0 >
  </iframe>
 :::

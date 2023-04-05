@@ -22,8 +22,8 @@ title: 相机 Camera
 
 ![c01](/assets/img/guide/c01.png)
 
-| 属性   <img width=400/>      | 图例     <img width=100/>      |
-| -------------------------------- | -------------------------------------- |
+| 属性   <img width=400/>          | 图例     <img width=100/>                          |
+| -------------------------------- | -------------------------------------------------- |
 | `roll`：滚转角，围绕 X 轴旋转    | <img src="/assets/img/guide/c04.gif" width="30%" > |
 | `pitch`：仰俯角，围绕 Y 轴旋转   | <img src="/assets/img/guide/c03.gif" width="30%" > |
 | `heading`：航向角，围绕 Z 轴旋转 | <img src="/assets/img/guide/c02.gif" width="30%" > |
@@ -60,7 +60,7 @@ viewer.camera.flyHome()
  <iframe  
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/camera/flyHome.html"  
+ src="https://cesium.product.vrteam.top/camera/flyHome.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -96,7 +96,7 @@ viewer.camera.flyTo({
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/camera/flyTo.html"  
+ src="https://cesium.product.vrteam.top/camera/flyTo.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -128,7 +128,7 @@ viewer.camera.flyToBoundingSphere(sphere)
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/camera/flyToBoundingSphere.html"  
+ src="https://cesium.product.vrteam.top/camera/flyToBoundingSphere.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -162,7 +162,7 @@ viewer.camera.zoomOut(zoomOutAmount)
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/camera/zoom.html"  
+ src="https://cesium.product.vrteam.top/camera/zoom.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -203,7 +203,7 @@ viewer.camera.moveDown(moveAmount)
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/camera/move.html"  
+ src="https://cesium.product.vrteam.top/camera/move.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -221,8 +221,8 @@ viewer.camera.moveDown(moveAmount)
 
 这类方法不会改变相机的位置，只会改变相机的朝向，这4个方法都可以传递一个参数`amount`，表示视角调整的弧度：
 
-| 参数名称 | 类型     | 默认值                            | 描述       |
-| -------- | -------- | --------------------------------- | ---------- |
+| 参数名称 | 类型     | 默认值                                                    | 描述           |
+| -------- | -------- | --------------------------------------------------------- | -------------- |
 | `amount` | `Number` | `defaultLookAmount`，即`Math.PI / 60.0`，转换为角度为`3°` | 视角调整的弧度 |
 
 由于参数`amount`需要指定一个弧度值，可以使用`Cesium.Math.toRadians()`方法将角度转换为弧度，则默认值`defaultLookAmount`等价于`Cesium.Math.toRadians(3)`，视角 look 的使用方法如下：
@@ -241,7 +241,7 @@ viewer.camera.lookRight(lookRadians)
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/camera/look.html"  
+ src="https://cesium.product.vrteam.top/camera/look.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -273,7 +273,7 @@ viewer.camera.twistRight(twistAmount)
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/camera/twist.html"  
+ src="https://cesium.product.vrteam.top/camera/twist.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -311,7 +311,7 @@ viewer.camera.rotateRight(rotateAngle)
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/camera/rotate.html"  
+ src="https://cesium.product.vrteam.top/camera/rotate.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -363,7 +363,7 @@ viewer.camera.setView({
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/camera/setView.html"  
+ src="https://cesium.product.vrteam.top/camera/setView.html"  
  frameborder=0 >
  </iframe>
 :::
@@ -405,7 +405,7 @@ viewer.camera.lookAtTransform(Cesium.Matrix4.IDENTITY)
  <iframe
  height=600 
  width=100% 
- src="https://syzdev.cn/cesium-docs-demo/camera/lookAt.html"  
+ src="https://cesium.product.vrteam.top/camera/lookAt.html"  
  frameborder=0 >
  </iframe>
 :::
